@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 LABEL maintainer="Evan Stoddard" \
       description="Basic C++ build/test env" \
-      version="0.1.0"
+      version="0.1.1"
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=America/New_York
 RUN apt-get update -y && \
